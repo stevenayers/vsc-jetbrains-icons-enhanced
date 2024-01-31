@@ -1,39 +1,50 @@
 {
-  "name": "vsc-jetbrains-icons-enhanced",
-  "displayName": "JetBrains Icons Enhanced",
-  "description": "JetBrains Icons Enhanced is a collection of JetBrains icons with custom edits and selections.",
-  "categories": [
-    "Themes"
-  ],
-  "version": "2.1.0",
-  "publisher": "BrennonDenny",
-  "repository": "https://github.com/brennondenny/vsc-jetbrains-icons-enhanced",
-  "engines": {
-    "vscode": "^1.52.0"
-  },
-  "icon": "icon.png",
-  "extensionKind": [
-    "ui",
-    "workspace"
-  ],
-  "keywords": [
-    "jetbrains",
-    "icons",
-    "theme",
-    "webstorm",
-    "intellij",
-    "pycharm"
-  ],
-  "bugs": {
-    "url": "https://github.com/brennondenny/vsc-jetbrains-icons-enhanced/issues"
-  },
-  "contributes": {
-    "iconThemes": [
-      {
-        "id": "vsc-jetbrains-icons-enhanced",
-        "label": "JetBrains Icons Enhanced",
-        "path": "./theme/theme.json"
-      }
-    ]
-  }
+	"name": "vsc-jetbrains-icons-dbt",
+	"displayName": "JetBrains Icons Enhanced with DBT",
+	"description": "JetBrains Icons Enhanced with DBT is a collection of JetBrains icons with custom edits and selections.",
+	"categories": [
+		"Themes"
+	],
+	"version": "0.0.4",
+	"publisher": "StevenAyers",
+	"repository": "https://github.com/stevenayers/vsc-jetbrains-icons-enhanced",
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"icon": "icon.png",
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"keywords": [
+		"jetbrains",
+		"icons",
+		"theme",
+		"webstorm",
+		"intellij",
+		"pycharm"
+	],
+	"bugs": {
+		"url": "https://github.com/stevenayers/vsc-jetbrains-icons-enhanced/issues"
+	},
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "vsc-jetbrains-icons-enhanced",
+				"label": "JetBrains Icons Enhanced",
+				"path": "./theme/theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "385adb71-b55a-410e-b0ad-2b9170307914",
+		"publisherId": "8ff195c0-e5ab-4c0c-bcbe-06af4ae19368",
+		"publisherDisplayName": "Steven Ayers",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1706716284909,
+		"pinned": false,
+		"preRelease": false
+	}
 }
